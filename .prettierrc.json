@@ -1,0 +1,8 @@
+{
+  "semi": false,
+  "jsxSingleQuote": true,
+  "arrowParens": "avoid",
+  "endOfLine": "lf",
+  "singleQuote": true,
+  "trailingComma": "none"
+}
