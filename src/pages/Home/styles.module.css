@@ -1,0 +1,23 @@
+.pageContainer {
+  display: grid; 
+  grid-template-columns: 1fr; 
+  grid-template-rows: 20.0rem 1fr; 
+  gap: 0px 0px; 
+  grid-template-areas: 
+    "header"
+    "main"; 
+}
+
+.header { 
+  grid-area: header;
+  display: grid;
+  place-items: center;
+  background-color: var(--gray-700);
+ }
+
+.main { 
+  grid-area: main;
+  width: 100%;
+  max-width: 73.6rem;
+  margin: 0 auto;
+}

@@ -1,0 +1,91 @@
+.list {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 6.4rem;
+}
+
+.listHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.listHeader .counter {
+  height: 1.9rem;
+  background: var(--gray-400);
+  border-radius: 999px;
+  padding: 0.2rem 0.8rem;
+  font-size: 1.2rem;
+  line-height: 1.45rem;
+  font-weight: 700;
+  color: var(--gray-200);
+  margin-left: 0.8rem;
+}
+
+.listHeader > p:first-child {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: var(--blue-500);
+}
+
+.listHeader > p:last-child {
+  font-weight: 700;
+  font-size: 1.4rem;
+  line-height: 1.7rem;
+  color: var(--purple-500);
+}
+
+.listContent {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 2.4rem;
+}
+
+.todoTitle {
+  width: 100%;
+  height: 2.4rem;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.0rem;
+  color: var(--gray-100);
+  margin: 0 1.2rem;
+}
+
+.todoChecked {
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.0rem;
+  color: var(--gray-300);
+  text-decoration-line: line-through;
+}
+
+.emptyList {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 73.6rem;
+  height: 24.4rem;
+  border-top: 1px solid var(--gray-400);
+  border-radius: 8px;
+}
+
+.emptyList > p {
+  width: 100%;
+  font-weight: 700;
+  line-height: 2.2rem;
+  text-align: center;
+  color: var(--gray-300);
+  margin-top: 1.6rem;
+  max-width: 31.4rem;
+}

@@ -1,0 +1,25 @@
+.button {
+  width: 9.0rem;
+  height: 5.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.8rem;
+  background-color: var(--blue-500);
+  color: var(--gray-100);
+  border-radius: 8px;
+  padding: 1.6rem;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 2.0rem;
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}
+
+.button:focus {
+  outline: auto;
+  outline-color: var(--blue-500);
+}
